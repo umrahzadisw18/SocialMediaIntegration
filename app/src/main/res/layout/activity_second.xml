@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/userdetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="User Detail"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/teal_700"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="160dp"
+        android:gravity="center"
+        app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+<!--        android:layout_marginRight="@+id/userdetail"-->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user"
+        android:layout_below="@+id/userdetail"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_margin="25dp"
+        android:gravity="start"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/useremail"
+        android:layout_below="@+id/user"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_margin="25dp"
+        android:gravity="start"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/paswrd"
+        android:layout_below="@+id/useremail"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_margin="25dp"
+        android:gravity="start"/>
+
+</RelativeLayout>
