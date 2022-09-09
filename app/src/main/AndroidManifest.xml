@@ -17,6 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name = ".SecondActivity"></activity>
+        <activity android:name = ".FacebookActivity"></activity>
+        <activity android:name = ".InstagramActivity"></activity>
+        <activity android:name = ".GoogleActivity"></activity>
     </application>
 
 </manifest>
